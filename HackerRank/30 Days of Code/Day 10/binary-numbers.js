@@ -32,6 +32,6 @@ let bin = (n >>> 0).toString(2), cont1 = 0, maxCont = 0;
             cont1 = 0;
         }
     }
-)
+);
 
 console.log(maxCont);
