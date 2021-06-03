@@ -51,20 +51,10 @@ function printMaiores(raiz:No): number {
 }
 
 function getAltura(raiz:No): number {
-    let dir: number = 0;
-    let esq: number = 0;
-    let temp: No = raiz;
-    while (temp) {
-        dir++;
-        temp = temp.dir;
-    }
-    temp = raiz;
-    while (temp) {
-        esq++;
-        temp = temp.esq;
-    }
-
-    return (dir > esq ? dir : esq) -1;
+    if (!raiz) return -1;
+    let esq = getAltura(raiz.esq);
+    let dir = getAltura(raiz.dir)
+    return (dir > esq ? dir : esq) + 1;
 }
 
 
