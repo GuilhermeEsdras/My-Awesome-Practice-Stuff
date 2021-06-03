@@ -46,19 +46,11 @@ function printMaiores(raiz) {
     return quantMaiores;
 }
 function getAltura(raiz) {
-    var dir = 0;
-    var esq = 0;
-    var temp = raiz;
-    while (temp) {
-        dir++;
-        temp = temp.dir;
-    }
-    temp = raiz;
-    while (temp) {
-        esq++;
-        temp = temp.esq;
-    }
-    return (dir > esq ? dir : esq) - 1;
+    if (!raiz)
+        return -1;
+    var esq = getAltura(raiz.esq);
+    var dir = getAltura(raiz.dir);
+    return (dir > esq ? dir : esq) + 1;
 }
 var T = [3, 5, 2, 1, 4, 6, 7];
 var raiz = null;
