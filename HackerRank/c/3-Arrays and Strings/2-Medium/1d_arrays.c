@@ -3,6 +3,10 @@
 #include <math.h>
 #include <stdlib.h>
 
+/**
+ * @see https://www.hackerrank.com/challenges/1d-arrays-in-c
+ * @author Guilherme Esdras
+ */
 int main() {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    

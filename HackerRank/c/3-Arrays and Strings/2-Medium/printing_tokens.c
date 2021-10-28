@@ -3,6 +3,10 @@
 #include <math.h>
 #include <stdlib.h>
 
+/**
+ * @see https://www.hackerrank.com/challenges/printing-tokens-
+ * @author Guilherme Esdras
+ */
 int main() {
 
     char *s;

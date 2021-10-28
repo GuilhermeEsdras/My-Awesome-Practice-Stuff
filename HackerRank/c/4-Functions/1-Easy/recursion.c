@@ -9,6 +9,10 @@ int find_nth_term(int n, int a, int b, int c) {
     return n > 4 ? x = find_nth_term(--n, b, c, x) : x;
 }
 
+/**
+ * @see https://www.hackerrank.com/challenges/recursion-in-c
+ * @author Guilherme Esdras
+ */
 int main() {
     int n, a, b, c;
   
