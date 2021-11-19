@@ -1,2 +1,8 @@
-package dev.esdras.introduction.easy;public class JavaLoopsII {
+package dev.esdras.introduction.easy;
+
+/**
+ * @see
+ * @author Guilherme Esdras (www.hackerrank.com/guilherme_esdras)
+ */
+public class JavaLoopsII {
 }

@@ -4,5 +4,8 @@ package dev.esdras.strings.easy;
  * @see
  * @author Guilherme Esdras (www.hackerrank.com/guilherme_esdras)
  */
-public class JavaSubstring {
+public class JavaStringIntroduction {
+    public static void main(String[] args) {
+
+    }
 }
